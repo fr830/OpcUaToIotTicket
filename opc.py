@@ -10,7 +10,7 @@ client = Client("opc.tcp://DESKTOP-EA768IN:53530/OPCUA/SimulationServer")
 client.connect()
 root = client.get_root_node()
 
-perkele = 0
+
 
 
 def getcounter():
